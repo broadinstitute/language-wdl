@@ -1,0 +1,15 @@
+{
+  "name": "language-wdl",
+  "version": "0.0.1",
+  "description": "A short description of your package",
+  "keywords": [
+    "wdl", "cromwell"
+  ],
+  "repository": "https://github.com/agraubert/language-wdl",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
