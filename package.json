@@ -1,15 +1,15 @@
 {
   "name": "language-wdl",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "WDL Language Support For Atom",
   "keywords": [
-    "wdl", "cromwell"
+    "wdl",
+    "cromwell"
   ],
   "repository": "https://github.com/agraubert/language-wdl",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
