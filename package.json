@@ -1,7 +1,7 @@
 {
   "name": "language-wdl",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "WDL Language Support For Atom",
   "keywords": [
     "wdl", "cromwell"
   ],
