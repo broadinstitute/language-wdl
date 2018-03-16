@@ -6,7 +6,7 @@
     "wdl",
     "cromwell"
   ],
-  "repository": "https://github.com/agraubert/language-wdl",
+  "repository": "https://github.com/broadinstitute/language-wdl",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
