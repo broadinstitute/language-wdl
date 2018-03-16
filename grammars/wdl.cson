@@ -101,11 +101,15 @@ repository:
     keywords:
         patterns: [
             {
-                match: '\\s*(call|output|runtime|task|workflow|if|then|else|import|as|input|output|meta|parameter_meta)\\s+'
+                match: '^\\s*(call|output|runtime|task|workflow|if|then|else|import|as|input|output|meta|parameter_meta)\\s+'
                 name: 'keyword.other.wdl'
             },
+            # {
+            #     match: '\\b(task|workflow)\\b'
+            #     name: 'keyword.other.wdl'
+            # },
             {
-                begin: '\\s*(command)\\s+{',
+                begin: '^\\s*(command)\\s+{',
                 end: '}'
                 beginCaptures:
                   '1':
